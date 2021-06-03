@@ -1,0 +1,6 @@
+framework module XYNetworkMonitor {
+  umbrella header "XYNetworkMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}
