@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XYNetworkMonitor'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'XiaoYing - XYNetworkMonitor.'
   s.description      = <<-DESC
 XiaoYing pod 库 - XYNetworkMonitor
