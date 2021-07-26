@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XYNetworkMonitor'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = 'XiaoYing - XYNetworkMonitor.'
   s.description      = <<-DESC
 XiaoYing pod 库 - XYNetworkMonitor
@@ -13,7 +13,7 @@ XiaoYing pod 库 - XYNetworkMonitor
 
   s.ios.deployment_target = '9.0'
 
-  s.vendored_frameworks = "*.{xcframework, framework}"
+  s.vendored_frameworks = "XYNetworkMonitor.xcframework"
   s.source_files = "XYNetworkMonitor.xcframework/ios-arm64_armv7/XYNetworkMonitor.framework/Headers/**/*.h"  
   s.dependency 'AFNetworking', '~>4.0.1'
   
